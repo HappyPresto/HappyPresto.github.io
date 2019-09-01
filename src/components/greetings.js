@@ -46,6 +46,11 @@ function socialStore() {
             name: 'vk',
             link: 'https://vk.com/koiepresto',
             img: '/img/vk.svg'
+        },
+        {
+            name: 'mail',
+            link: 'mailto:darkstar54@mail.ru',
+            img: '/img/mail.svg'
         }
     ]
 }
