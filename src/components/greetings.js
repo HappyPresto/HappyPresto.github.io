@@ -20,6 +20,9 @@ class Greetings extends Component {
                         {social}
                     </ul>
                 </div>
+                <div className = "greetings__photo">
+                    <img src = "/img/profilePhoto.png" />
+                </div>
             </div>
         )
     }
