@@ -46,7 +46,7 @@ let conf = {
                         options: {
                             importLoaders: 1,
                             modules: {
-                                localIdentName: '[local]__[sha1:hash:hex:7]'
+                                localIdentName: '[local]' //__[sha1:hash:hex:7]'
                             }
                         }
                     }

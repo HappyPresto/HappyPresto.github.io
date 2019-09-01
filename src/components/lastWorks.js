@@ -7,16 +7,16 @@ class LastWorks extends Component {
             return (
                 <a href = {el.link} key = {el.name} className = "lastWorks__link">
                     <img className = "lastWorks__img" src = {el.img} />
-                    <h3 className = "lastWorks__head">{el.name}</h3>
+                    <h3 className = "lastWorks__linkName">{el.name}</h3>
                     <div className = "lastWorks__info">
                         <p>
-                            <span className = "strong">Тип: </span>{el.type}
+                            <span className = "strong">Тип: </span><span>{el.type}</span>
                         </p>
                         <p>
-                            <span className = "strong">Роль: </span>{el.role}
+                            <span className = "strong">Роль: </span><span>{el.role}</span>
                         </p>
                         <p>
-                            <span className = "strong">Стек: </span>{el.techology}
+                            <span className = "strong">Стек: </span><span>{el.techology}</span>
                         </p>
                     </div>
                     <p className = "lastWorks__description">{el.description}</p>
@@ -24,8 +24,14 @@ class LastWorks extends Component {
             )
         })
         return (
-            <div className = "content lastWorks">
-                {sites}
+            <div className = "lastWorks">
+                <div className = "content lastWorks__block">
+                    <h2 className = "lastWorks__head">Последние работы</h2>
+                    <span className = "yellow__line"></span>
+                    <div className = "lastWorks__list">
+                        {sites}
+                    </div>
+                </div>
             </div>
         )
     }
