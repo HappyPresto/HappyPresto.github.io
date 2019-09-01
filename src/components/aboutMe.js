@@ -71,6 +71,14 @@ function infoAboutMe() {
             value: "Специалист"
         },
         {
+            name: "Английский язык",
+            value: "Intermediate"
+        },
+        {
+            name: "Корейский язык / 한국어",
+            value: "4 уровень / 4급 (~B1 в англ)"
+        },
+        {
             name: "Вебсайт",
             value: "happypresto.github.io",
             valueToLink: "https://happypresto.github.io"
