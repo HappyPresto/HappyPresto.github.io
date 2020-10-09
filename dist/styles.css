@@ -159,12 +159,26 @@ main {
 }
 .aboutMe__description {
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
     width: 100%;
     margin-right: 20px
 }
 .aboutMe__description p {
     line-height: 1.5em;
+}
+.aboutMe__workPlace-name {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.aboutMe__workPlace-list {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+.aboutMe__workPlace-list li {
+    line-height: 1.4em
 }
 .aboutMe__info {
     display: flex;
