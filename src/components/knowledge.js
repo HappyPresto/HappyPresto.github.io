@@ -15,13 +15,14 @@ class Knowledge extends Component {
                                 </p>
                                 <div className = "knowledge__half_blockList">
                                     <p className = "knowledge__half_blockElements">
-                                        React, Redux, Redux-thunk, mobx
+                                        <strong>React -</strong> React, Redux, Redux-thunk, Hooks, mobx<br />
+                                        <strong>Vue -</strong> Vue, Vuex
                                     </p>
                                     <p className = "knowledge__half_blockElements">
-                                        JavaScript, ES6, JQuery, fetch, Ajax, JSON
+                                        JavaScript, ES6, ES7, ES8, ES2020,<br />JQuery, fetch, Ajax, JSON
                                     </p>
                                     <p className = "knowledge__half_blockElements">
-                                        CSS3, SASS, BEM
+                                        CSS3, SASS, SCSS, BEM
                                     </p>
                                     <p className = "knowledge__half_blockElements">
                                         HTML5, XSL, XML
@@ -62,7 +63,7 @@ class Knowledge extends Component {
                                         Adobe Photoshop, Figma
                                     </p>
                                     <p className = "knowledge__half_blockElements">
-                                        Git, GitHub
+                                        Git, GitHub, Jira
                                     </p>
                                 </div>
                             </div>

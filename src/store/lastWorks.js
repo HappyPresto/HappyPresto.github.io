@@ -1,11 +1,11 @@
 export const works = [
     {
         name: "Bordo Chateaux",
-        img: "/img/bordo1.png",
+        img: "/img/bordo.png",
         type: "Сайт-витрина",
         role: "Дизайн + Разработка сайта",
         techology: "Gulp, SASS, JS, Ajax, Google Calendar Api, PayPal Api",
-        description: "Каталог туров в г.Бордо, Франция на 2 языках (Англ и Фра). Полная интеграция с Базой данных, добавление записей в календарь и оплата тура с помощью PayPal (в данный момент находится в разработке)",
+        description: "Каталог туров в г.Бордо, Франция на 2 языках (Англ и Фра). Полная интеграция с Базой данных, добавление записей в календарь и оплата тура с помощью PayPal",
         link: "https://bordochateaux.com/"
     },
     {
@@ -52,5 +52,16 @@ export const works = [
         techology: "Gulp, SASS, JS, lazy load",
         description: "Информационный сайт о бухгалтерсом учете",
         link: "http://www.buhgalter-s.ru"
+    }
+]
+export const worksVue = [
+    {
+        name: "Sport",
+        img: "/img/hwc.png",
+        type: "Сайт",
+        role: "Дизайн + Разработка сайта",
+        techology: "Vue, Vuex, Webpack, SASS, HTML5, FireBase, Babel",
+        description: "Сайт для занятия спортом (пока сайт, чуть позже будет приложение на React Native), с программой тренировок, сохранением и отслеживание прогресса и многое другое. (в данный момент находится в разработке, возможны ошибки)",
+        link: "http://cw29525.tmweb.ru/"
     }
 ]

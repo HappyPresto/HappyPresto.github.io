@@ -16,7 +16,7 @@ class Footer extends Component {
             <footer>
                 <div className = "content footer">
                     <div className = "footer__info">
-                        <p className = "footer__copy">&copy; 2019 </p><p className = "header__logo_name footer__logo_name"><span className = "yellow">Y</span>ura<span className = "yellow">V</span>asilets</p>
+                        <p className = "footer__copy">&copy; 2020</p><p className = "header__logo_name footer__logo_name"><span className = "yellow">Y</span>ura<span className = "yellow">V</span>asilets</p>
                     </div>
                     <ul className = "footer__list">
                         {info}
