@@ -38,6 +38,8 @@ class AboutMe extends Component {
                     <div className = "aboutMe__block">
                         <div className = "aboutMe__description">
                             <div className ="aboutMe__workPlace">
+                                <p>Наработки на React  <a href="https://github.com/HappyPresto?tab=repositories" target="_blank">доступны на GitHube</a></p>
+
                                 <p className ="aboutMe__workPlace-name">Места работы:</p>
                                 <ul className ="aboutMe__workPlace-list">
                                     <li>SEO-Energy - (2016-2019) (Создание сайтов)</li>
