@@ -41,6 +41,7 @@ class LastWorks extends Component {
                         </p>
                     </div>
                     <p className = "lastWorks__description">{el.description}</p>
+                    <p className = "lastWorks__description"><a href='https://github.com/HappyPresto/hwc' target="_blank">Ссылка на проект в GitHube</a>. </p>
                 </a>
             )
         });
